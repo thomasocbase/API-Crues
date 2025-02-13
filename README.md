@@ -26,5 +26,5 @@ http://localhost:3000/api/
 
 ### Endpoints
 
-GET crues -- Returns all the territories
-GET crues/territory/:code -- Returns a specific territory
+- GET baseurl + crues -- Returns all the territories
+- GET baseurl + crues/territory/:code -- Returns a specific territory
