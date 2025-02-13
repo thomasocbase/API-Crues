@@ -28,3 +28,4 @@ http://localhost:3000/api/
 
 - GET baseurl + crues -- Returns all the territories
 - GET baseurl + crues/territory/:code -- Returns a specific territory
+- GET baseurl + crues/station/:code -- Returns the list of observed water levels from a specific station
