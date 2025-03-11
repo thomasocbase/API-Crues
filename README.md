@@ -26,6 +26,7 @@ http://localhost:3000/api/
 
 ### Endpoints
 
-- GET baseurl + crues -- Returns all the territories
-- GET baseurl + crues/territory/:code -- Returns a specific territory
-- GET baseurl + crues/station/:code -- Returns the list of observed water levels from a specific station
+- GET baseurl + stations -- Returns all the stations
+- GET baseurl + station/:code -- Returns the list of observed water levels from a specific station
+- GET baseurl + station/coord/:code -- Returns the geo coordinates (long / lat) of a given station
+- GET baseurl + territory/:code -- Returns a specific territory
