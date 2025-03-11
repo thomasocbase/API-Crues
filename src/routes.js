@@ -40,7 +40,7 @@ router.get('/station/coord/:code', async (req, res) => {
         const result = {
             stationCode: req.params.code,
             stationName: response.ListEntVigiCru[0].LbEntVigiCru,
-            coord: wgs84Coords
+            coord: wgs84Coords.reverse()
         }
 
         res.status(200).json(result);
